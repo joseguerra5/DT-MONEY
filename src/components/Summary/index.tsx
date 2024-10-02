@@ -5,17 +5,17 @@ export function Summary() {
   return (
     <SumaryContainer>
       <SumaryCard>
-        <header><span>Entradas</span> <ArrowCircleUp /></header>
+        <header><span>Entradas</span> <ArrowCircleUp size={32} color="#00B37E"/></header>
         <strong>R$ 17.400,00</strong>
       </SumaryCard>
 
       <SumaryCard>
-        <header><span>Saídas</span> <ArrowCircleDown /></header>
+        <header><span>Saídas</span> <ArrowCircleDown size={32} color="#F03847"/></header>
         <strong>R$ 17.400,00</strong>
       </SumaryCard>
 
-      <SumaryCard>
-        <header><span>Total</span> <CurrencyDollar /></header>
+      <SumaryCard variant="green">
+        <header><span>Total</span> <CurrencyDollar size={32} color="#ffffff"/></header>
         <strong>R$ 17.400,00</strong>
       </SumaryCard>
     </SumaryContainer>

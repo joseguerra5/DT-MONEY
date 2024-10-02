@@ -13,7 +13,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body, input, textarea, button{
-    font: 400 1rem/1,4 "Roboto", sans-serif;
+    font: 400 1rem/1.6 "Roboto", sans-serif;
   }
 
   body {
